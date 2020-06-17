@@ -29,7 +29,7 @@ def reply():
 	for tweet in tweets:
 		if '#notarobot' in tweet.full_text.lower():
 			print(str(tweet.id) + ' - ' + tweet.full_text)
-			api.update_status("@" + tweet.user.screen_name + " Hello human ", tweet.id)
+			api.update_status("@" + tweet.user.screen_name + " Hello human! ", tweet.id)
 			api.retweet(tweet.id)
 			api.create_favorite(tweet.id)
 			store_last_seen(FILE_NAME, tweet.id)
