@@ -1,11 +1,10 @@
 import tweepy
-import time
 
-consumer_key = '7LL5KUyRNABdhDUuY28gkyh2g'
-consumer_secret = 'JZwbKbZnfa5XLSubQxRDjH5bp5rjBAudrSEwrk9LqP151R8H1Y'
-
-key = '1273226591443664896-9PYSIqK5QgCaw7efgWVpkspPuNVnzT'
-secret = 'rpl3zYZ5RJdJ6DiuBT8esD45bC0yx4O9jc8tqdLbsHwxG'
+#INSERT TOKENS TO IDENTIFY ACCOUNT
+consumer_key = ' '
+consumer_secret = ' '
+key = ' '
+secret = ' '
 
 FILE_NAME = 'tweets_id.txt'
 
@@ -37,4 +36,4 @@ def reply():
 
 while True:
 	reply()
-	time.sleep(15)
+	
